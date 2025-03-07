@@ -4,7 +4,7 @@ def gcd(a,b):
     else:
         if a>=2*b:
             for i in range(2,b+1):
-                if(a % i ==0 & b % i ==0):
+                if(a % i ==0 and b % i ==0):
                     gcd = i
             return gcd
         else:
